@@ -1,0 +1,589 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		259C87AF20AD72320036C2AD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 259C87AE20AD72320036C2AD /* AppDelegate.swift */; };
+		259C87B120AD72320036C2AD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 259C87B020AD72320036C2AD /* ViewController.swift */; };
+		259C87B420AD72320036C2AD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 259C87B220AD72320036C2AD /* Main.storyboard */; };
+		259C87B620AD72330036C2AD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 259C87B520AD72330036C2AD /* Assets.xcassets */; };
+		259C87B920AD72330036C2AD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 259C87B720AD72330036C2AD /* LaunchScreen.storyboard */; };
+		259C87C420AD72330036C2AD /* AppHeti_cTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 259C87C320AD72330036C2AD /* AppHeti_cTests.swift */; };
+		259C87CF20AD72340036C2AD /* AppHeti_cUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 259C87CE20AD72330036C2AD /* AppHeti_cUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		259C87C020AD72330036C2AD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 259C87A320AD72320036C2AD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 259C87AA20AD72320036C2AD;
+			remoteInfo = "AppHeti-c";
+		};
+		259C87CB20AD72330036C2AD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 259C87A320AD72320036C2AD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 259C87AA20AD72320036C2AD;
+			remoteInfo = "AppHeti-c";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		259C87AB20AD72320036C2AD /* AppHeti-c.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AppHeti-c.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		259C87AE20AD72320036C2AD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		259C87B020AD72320036C2AD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		259C87B320AD72320036C2AD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		259C87B520AD72330036C2AD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		259C87B820AD72330036C2AD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		259C87BA20AD72330036C2AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		259C87BF20AD72330036C2AD /* AppHeti-cTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "AppHeti-cTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		259C87C320AD72330036C2AD /* AppHeti_cTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppHeti_cTests.swift; sourceTree = "<group>"; };
+		259C87C520AD72330036C2AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		259C87CA20AD72330036C2AD /* AppHeti-cUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "AppHeti-cUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		259C87CE20AD72330036C2AD /* AppHeti_cUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppHeti_cUITests.swift; sourceTree = "<group>"; };
+		259C87D020AD72340036C2AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		259C87A820AD72320036C2AD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		259C87BC20AD72330036C2AD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		259C87C720AD72330036C2AD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		259C87A220AD72320036C2AD = {
+			isa = PBXGroup;
+			children = (
+				259C87AD20AD72320036C2AD /* AppHeti-c */,
+				259C87C220AD72330036C2AD /* AppHeti-cTests */,
+				259C87CD20AD72330036C2AD /* AppHeti-cUITests */,
+				259C87AC20AD72320036C2AD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		259C87AC20AD72320036C2AD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				259C87AB20AD72320036C2AD /* AppHeti-c.app */,
+				259C87BF20AD72330036C2AD /* AppHeti-cTests.xctest */,
+				259C87CA20AD72330036C2AD /* AppHeti-cUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		259C87AD20AD72320036C2AD /* AppHeti-c */ = {
+			isa = PBXGroup;
+			children = (
+				259C87AE20AD72320036C2AD /* AppDelegate.swift */,
+				259C87B020AD72320036C2AD /* ViewController.swift */,
+				259C87B220AD72320036C2AD /* Main.storyboard */,
+				259C87B520AD72330036C2AD /* Assets.xcassets */,
+				259C87B720AD72330036C2AD /* LaunchScreen.storyboard */,
+				259C87BA20AD72330036C2AD /* Info.plist */,
+			);
+			path = "AppHeti-c";
+			sourceTree = "<group>";
+		};
+		259C87C220AD72330036C2AD /* AppHeti-cTests */ = {
+			isa = PBXGroup;
+			children = (
+				259C87C320AD72330036C2AD /* AppHeti_cTests.swift */,
+				259C87C520AD72330036C2AD /* Info.plist */,
+			);
+			path = "AppHeti-cTests";
+			sourceTree = "<group>";
+		};
+		259C87CD20AD72330036C2AD /* AppHeti-cUITests */ = {
+			isa = PBXGroup;
+			children = (
+				259C87CE20AD72330036C2AD /* AppHeti_cUITests.swift */,
+				259C87D020AD72340036C2AD /* Info.plist */,
+			);
+			path = "AppHeti-cUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		259C87AA20AD72320036C2AD /* AppHeti-c */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 259C87D320AD72340036C2AD /* Build configuration list for PBXNativeTarget "AppHeti-c" */;
+			buildPhases = (
+				259C87A720AD72320036C2AD /* Sources */,
+				259C87A820AD72320036C2AD /* Frameworks */,
+				259C87A920AD72320036C2AD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "AppHeti-c";
+			productName = "AppHeti-c";
+			productReference = 259C87AB20AD72320036C2AD /* AppHeti-c.app */;
+			productType = "com.apple.product-type.application";
+		};
+		259C87BE20AD72330036C2AD /* AppHeti-cTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 259C87D620AD72340036C2AD /* Build configuration list for PBXNativeTarget "AppHeti-cTests" */;
+			buildPhases = (
+				259C87BB20AD72330036C2AD /* Sources */,
+				259C87BC20AD72330036C2AD /* Frameworks */,
+				259C87BD20AD72330036C2AD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				259C87C120AD72330036C2AD /* PBXTargetDependency */,
+			);
+			name = "AppHeti-cTests";
+			productName = "AppHeti-cTests";
+			productReference = 259C87BF20AD72330036C2AD /* AppHeti-cTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		259C87C920AD72330036C2AD /* AppHeti-cUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 259C87D920AD72340036C2AD /* Build configuration list for PBXNativeTarget "AppHeti-cUITests" */;
+			buildPhases = (
+				259C87C620AD72330036C2AD /* Sources */,
+				259C87C720AD72330036C2AD /* Frameworks */,
+				259C87C820AD72330036C2AD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				259C87CC20AD72330036C2AD /* PBXTargetDependency */,
+			);
+			name = "AppHeti-cUITests";
+			productName = "AppHeti-cUITests";
+			productReference = 259C87CA20AD72330036C2AD /* AppHeti-cUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		259C87A320AD72320036C2AD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = "Renan Bronchart";
+				TargetAttributes = {
+					259C87AA20AD72320036C2AD = {
+						CreatedOnToolsVersion = 9.3.1;
+					};
+					259C87BE20AD72330036C2AD = {
+						CreatedOnToolsVersion = 9.3.1;
+						TestTargetID = 259C87AA20AD72320036C2AD;
+					};
+					259C87C920AD72330036C2AD = {
+						CreatedOnToolsVersion = 9.3.1;
+						TestTargetID = 259C87AA20AD72320036C2AD;
+					};
+				};
+			};
+			buildConfigurationList = 259C87A620AD72320036C2AD /* Build configuration list for PBXProject "AppHeti-c" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 259C87A220AD72320036C2AD;
+			productRefGroup = 259C87AC20AD72320036C2AD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				259C87AA20AD72320036C2AD /* AppHeti-c */,
+				259C87BE20AD72330036C2AD /* AppHeti-cTests */,
+				259C87C920AD72330036C2AD /* AppHeti-cUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		259C87A920AD72320036C2AD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				259C87B920AD72330036C2AD /* LaunchScreen.storyboard in Resources */,
+				259C87B620AD72330036C2AD /* Assets.xcassets in Resources */,
+				259C87B420AD72320036C2AD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		259C87BD20AD72330036C2AD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		259C87C820AD72330036C2AD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		259C87A720AD72320036C2AD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				259C87B120AD72320036C2AD /* ViewController.swift in Sources */,
+				259C87AF20AD72320036C2AD /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		259C87BB20AD72330036C2AD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				259C87C420AD72330036C2AD /* AppHeti_cTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		259C87C620AD72330036C2AD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				259C87CF20AD72340036C2AD /* AppHeti_cUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		259C87C120AD72330036C2AD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 259C87AA20AD72320036C2AD /* AppHeti-c */;
+			targetProxy = 259C87C020AD72330036C2AD /* PBXContainerItemProxy */;
+		};
+		259C87CC20AD72330036C2AD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 259C87AA20AD72320036C2AD /* AppHeti-c */;
+			targetProxy = 259C87CB20AD72330036C2AD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		259C87B220AD72320036C2AD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				259C87B320AD72320036C2AD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		259C87B720AD72330036C2AD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				259C87B820AD72330036C2AD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		259C87D120AD72340036C2AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		259C87D220AD72340036C2AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		259C87D420AD72340036C2AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7ZYWN89QZM;
+				INFOPLIST_FILE = "AppHeti-c/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "renanbronchart.AppHeti-c";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		259C87D520AD72340036C2AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7ZYWN89QZM;
+				INFOPLIST_FILE = "AppHeti-c/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "renanbronchart.AppHeti-c";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		259C87D720AD72340036C2AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7ZYWN89QZM;
+				INFOPLIST_FILE = "AppHeti-cTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "renanbronchart.AppHeti-cTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AppHeti-c.app/AppHeti-c";
+			};
+			name = Debug;
+		};
+		259C87D820AD72340036C2AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7ZYWN89QZM;
+				INFOPLIST_FILE = "AppHeti-cTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "renanbronchart.AppHeti-cTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AppHeti-c.app/AppHeti-c";
+			};
+			name = Release;
+		};
+		259C87DA20AD72340036C2AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7ZYWN89QZM;
+				INFOPLIST_FILE = "AppHeti-cUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "renanbronchart.AppHeti-cUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "AppHeti-c";
+			};
+			name = Debug;
+		};
+		259C87DB20AD72340036C2AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7ZYWN89QZM;
+				INFOPLIST_FILE = "AppHeti-cUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "renanbronchart.AppHeti-cUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "AppHeti-c";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		259C87A620AD72320036C2AD /* Build configuration list for PBXProject "AppHeti-c" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				259C87D120AD72340036C2AD /* Debug */,
+				259C87D220AD72340036C2AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		259C87D320AD72340036C2AD /* Build configuration list for PBXNativeTarget "AppHeti-c" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				259C87D420AD72340036C2AD /* Debug */,
+				259C87D520AD72340036C2AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		259C87D620AD72340036C2AD /* Build configuration list for PBXNativeTarget "AppHeti-cTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				259C87D720AD72340036C2AD /* Debug */,
+				259C87D820AD72340036C2AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		259C87D920AD72340036C2AD /* Build configuration list for PBXNativeTarget "AppHeti-cUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				259C87DA20AD72340036C2AD /* Debug */,
+				259C87DB20AD72340036C2AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 259C87A320AD72320036C2AD /* Project object */;
+}
