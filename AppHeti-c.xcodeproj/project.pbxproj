@@ -18,6 +18,7 @@
 		259C87CF20AD72340036C2AD /* AppHeti_cUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 259C87CE20AD72330036C2AD /* AppHeti_cUITests.swift */; };
 		259C881720AD8E2A0036C2AD /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 259C881620AD8E2A0036C2AD /* HomeViewController.swift */; };
 		25B00CB120AE402400058742 /* NextViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25B00CB020AE402400058742 /* NextViewController.swift */; };
+		25CFB47620B06DE7009D96CB /* OnBoardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25CFB47520B06DE7009D96CB /* OnBoardViewController.swift */; };
 		41A2857EBC280127AB9075EF /* Pods_AppHeti_cTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9CBECA80E5868E29E64DEC1 /* Pods_AppHeti_cTests.framework */; };
 		6AE39D53D4E45465732C3B97 /* Pods_AppHeti_c.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EBE737F5B2F6E3008C20E0E7 /* Pods_AppHeti_c.framework */; };
 		AEB1917AFAB37C9A0116FEDC /* Pods_AppHeti_cUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83CD8D90CC668DB1801CC33D /* Pods_AppHeti_cUITests.framework */; };
@@ -58,6 +59,7 @@
 		259C87D020AD72340036C2AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		259C881620AD8E2A0036C2AD /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		25B00CB020AE402400058742 /* NextViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NextViewController.swift; sourceTree = "<group>"; };
+		25CFB47520B06DE7009D96CB /* OnBoardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoardViewController.swift; sourceTree = "<group>"; };
 		35D1871DFCA4FBE24B116F1A /* Pods-AppHeti-c.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AppHeti-c.release.xcconfig"; path = "Pods/Target Support Files/Pods-AppHeti-c/Pods-AppHeti-c.release.xcconfig"; sourceTree = "<group>"; };
 		677BA79CE6585485CD217AE9 /* Pods-AppHeti-cUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AppHeti-cUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-AppHeti-cUITests/Pods-AppHeti-cUITests.release.xcconfig"; sourceTree = "<group>"; };
 		83CD8D90CC668DB1801CC33D /* Pods_AppHeti_cUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AppHeti_cUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -132,6 +134,7 @@
 				254CBB4520AE2F4300047F1B /* MoviesTableViewController.swift */,
 				254CBB4720AE33A600047F1B /* MoviesTableViewCell.swift */,
 				25B00CB020AE402400058742 /* NextViewController.swift */,
+				25CFB47520B06DE7009D96CB /* OnBoardViewController.swift */,
 			);
 			path = "AppHeti-c";
 			sourceTree = "<group>";
@@ -188,7 +191,6 @@
 				259C87A720AD72320036C2AD /* Sources */,
 				259C87A820AD72320036C2AD /* Frameworks */,
 				259C87A920AD72320036C2AD /* Resources */,
-				83A9A519E352E2AC149DF65B /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -344,24 +346,6 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		83A9A519E352E2AC149DF65B /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-AppHeti-c/Pods-AppHeti-c-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/paper-onboarding/paper_onboarding.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/paper_onboarding.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AppHeti-c/Pods-AppHeti-c-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		BA2371A84EFE0EF818F1DE6E /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -393,6 +377,7 @@
 				254CBB4820AE33A600047F1B /* MoviesTableViewCell.swift in Sources */,
 				259C87AF20AD72320036C2AD /* AppDelegate.swift in Sources */,
 				259C881720AD8E2A0036C2AD /* HomeViewController.swift in Sources */,
+				25CFB47620B06DE7009D96CB /* OnBoardViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

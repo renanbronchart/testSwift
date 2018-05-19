@@ -143,5 +143,3 @@ class MoviesTableViewController: UITableViewController {
 
 }
 
-
-extension 
