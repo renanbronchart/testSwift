@@ -5,6 +5,8 @@ target 'AppHeti-c' do
   # Comment the next line if you're not using Swift and don't want to use dynamic frameworks
   use_frameworks!
 
+  pod 'paper-onboarding'
+
   # Pods for AppHeti-c
 
   target 'AppHeti-cTests' do
