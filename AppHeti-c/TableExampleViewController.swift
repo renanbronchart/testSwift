@@ -51,8 +51,7 @@ extension TableExampleViewController: UITableViewDelegate, UITableViewDataSource
 
     public func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "customTableViewCellIdentifier") as! CustomTableViewCell
-        
-        cell.cellView.layer.cornerRadius = cell.cellView.frame.height / 2
+
         
         cell.animalLabel.text = elements[indexPath.row]
         cell.animalImage.image = UIImage(named: elements[indexPath.row])
@@ -61,11 +60,20 @@ extension TableExampleViewController: UITableViewDelegate, UITableViewDataSource
         return cell
     }
     
-    func tableView(_ tableView: UITableView, didHighlightRowAt indexPath: IndexPath) {
-        <#code#>
+    func tableView(_ tableView: UITableView, leadingSwipeActionsConfigurationForRowAt indexPath: IndexPath) -> UISwipeActionsConfiguration? {
+        
+        let add = UIContextualAction(style: .normal, title: "Add") { (action, view, nil) in
+            print("Accept")
+        }
+        
+        return UISwipeActionsConfiguration(actions: [add])
     }
     
-    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        <#code#>
+    func tableView(_ tableView: UITableView, trailingSwipeActionsConfigurationForRowAt indexPath: IndexPath) -> UISwipeActionsConfiguration? {
+        let delete = UIContextualAction(style: .destructive, title: "delete") { (action, view, nil) in
+            print("Delete")
+        }
+        
+        return UISwipeActionsConfiguration(actions: [delete])
     }
 }

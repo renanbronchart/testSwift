@@ -232,22 +232,21 @@
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="GvN-1E-TY0">
-                                                    <rect key="frame" x="8" y="8" width="359" height="83.5"/>
+                                                    <rect key="frame" x="0.0" y="0.0" width="375" height="99.5"/>
                                                     <subviews>
                                                         <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="cat" translatesAutoresizingMaskIntoConstraints="NO" id="WXD-ZQ-3Zh">
-                                                            <rect key="frame" x="8" y="8" width="120" height="67.5"/>
+                                                            <rect key="frame" x="8" y="8" width="83.5" height="83.5"/>
                                                             <constraints>
-                                                                <constraint firstAttribute="width" secondItem="WXD-ZQ-3Zh" secondAttribute="height" multiplier="16:9" id="n0A-wA-NZp"/>
+                                                                <constraint firstAttribute="width" secondItem="WXD-ZQ-3Zh" secondAttribute="height" multiplier="5:5" id="n0A-wA-NZp"/>
                                                             </constraints>
                                                         </imageView>
                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6YE-IJ-y9R">
-                                                            <rect key="frame" x="136" y="8" width="215" height="67.5"/>
+                                                            <rect key="frame" x="99.5" y="8" width="267.5" height="83.5"/>
                                                             <fontDescription key="fontDescription" type="system" pointSize="23"/>
                                                             <nil key="textColor"/>
                                                             <nil key="highlightedColor"/>
                                                         </label>
                                                     </subviews>
-                                                    <color key="backgroundColor" red="0.83741801979999997" green="0.83743780850000005" blue="0.83742713930000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                     <constraints>
                                                         <constraint firstAttribute="bottom" secondItem="WXD-ZQ-3Zh" secondAttribute="bottom" constant="8" id="2uA-ar-nOV"/>
                                                         <constraint firstItem="6YE-IJ-y9R" firstAttribute="leading" secondItem="WXD-ZQ-3Zh" secondAttribute="trailing" constant="8" id="AyR-dq-HYk"/>
@@ -260,10 +259,10 @@
                                                 </view>
                                             </subviews>
                                             <constraints>
-                                                <constraint firstItem="GvN-1E-TY0" firstAttribute="leading" secondItem="uPT-jG-KwB" secondAttribute="leading" constant="8" id="8Z2-K6-U0H"/>
-                                                <constraint firstItem="GvN-1E-TY0" firstAttribute="top" secondItem="uPT-jG-KwB" secondAttribute="top" constant="8" id="Syb-Df-vTS"/>
-                                                <constraint firstAttribute="bottom" secondItem="GvN-1E-TY0" secondAttribute="bottom" constant="8" id="cSP-1c-Y7L"/>
-                                                <constraint firstAttribute="trailing" secondItem="GvN-1E-TY0" secondAttribute="trailing" constant="8" id="dvk-Vi-3Ay"/>
+                                                <constraint firstItem="GvN-1E-TY0" firstAttribute="leading" secondItem="uPT-jG-KwB" secondAttribute="leading" id="8Z2-K6-U0H"/>
+                                                <constraint firstItem="GvN-1E-TY0" firstAttribute="top" secondItem="uPT-jG-KwB" secondAttribute="top" id="Syb-Df-vTS"/>
+                                                <constraint firstAttribute="bottom" secondItem="GvN-1E-TY0" secondAttribute="bottom" id="cSP-1c-Y7L"/>
+                                                <constraint firstAttribute="trailing" secondItem="GvN-1E-TY0" secondAttribute="trailing" id="dvk-Vi-3Ay"/>
                                             </constraints>
                                         </tableViewCellContentView>
                                         <connections>
