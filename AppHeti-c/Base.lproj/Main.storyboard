@@ -212,6 +212,21 @@
             </objects>
             <point key="canvasLocation" x="2218" y="1757"/>
         </scene>
+        <!--Animation View Controller-->
+        <scene sceneID="i7W-O6-M3Z">
+            <objects>
+                <viewController id="VlU-Rn-eTa" customClass="AnimationViewController" customModule="AppHeti_c" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="uj2-VC-wHo">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="ycA-3p-nfT"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="TEM-Lh-zW2" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3301" y="1771"/>
+        </scene>
         <!--Table Example View Controller-->
         <scene sceneID="Wdc-YI-q4J">
             <objects>
@@ -221,7 +236,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="VuH-SM-CeI">
-                                <rect key="frame" x="0.0" y="20" width="375" height="647"/>
+                                <rect key="frame" x="0.0" y="170" width="375" height="497"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="customTableViewCellIdentifier" rowHeight="100" id="tPW-bc-dlU" customClass="CustomTableViewCell" customModule="AppHeti_c" customModuleProvider="target">
@@ -273,26 +288,75 @@
                                     </tableViewCell>
                                 </prototypes>
                             </tableView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Ys3-iy-yIZ">
+                                <rect key="frame" x="0.0" y="20" width="375" height="150"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.65000000000000002" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="dog" translatesAutoresizingMaskIntoConstraints="NO" id="YhC-os-8lb">
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="150"/>
+                                    </imageView>
+                                    <view alpha="0.40000000000000002" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="qQZ-f2-HfQ">
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="150"/>
+                                        <color key="backgroundColor" red="1" green="0.039765733839999998" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                    </view>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Qx4-N8-pKQ">
+                                        <rect key="frame" x="16" y="16" width="343" height="33.5"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="28"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="0" translatesAutoresizingMaskIntoConstraints="NO" id="nxH-WV-Q67">
+                                        <rect key="frame" x="162" y="84" width="50" height="50"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="50" id="ocP-6M-Gog"/>
+                                            <constraint firstAttribute="height" constant="50" id="pB4-Xm-LBU"/>
+                                        </constraints>
+                                    </imageView>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="YhC-os-8lb" secondAttribute="trailing" id="0Ra-TG-aAI"/>
+                                    <constraint firstItem="YhC-os-8lb" firstAttribute="top" secondItem="Ys3-iy-yIZ" secondAttribute="top" id="10b-eq-Iof"/>
+                                    <constraint firstAttribute="trailing" secondItem="qQZ-f2-HfQ" secondAttribute="trailing" id="6Jy-SP-Yim"/>
+                                    <constraint firstAttribute="bottom" secondItem="qQZ-f2-HfQ" secondAttribute="bottom" id="6QJ-wV-EUR"/>
+                                    <constraint firstAttribute="trailing" secondItem="Qx4-N8-pKQ" secondAttribute="trailing" constant="16" id="GT8-y8-2ir"/>
+                                    <constraint firstItem="Qx4-N8-pKQ" firstAttribute="leading" secondItem="Ys3-iy-yIZ" secondAttribute="leading" constant="16" id="IYw-nQ-4yr"/>
+                                    <constraint firstItem="qQZ-f2-HfQ" firstAttribute="top" secondItem="Ys3-iy-yIZ" secondAttribute="top" id="J3C-cL-jil"/>
+                                    <constraint firstAttribute="height" constant="150" id="NSn-bU-XpU"/>
+                                    <constraint firstItem="qQZ-f2-HfQ" firstAttribute="leading" secondItem="Ys3-iy-yIZ" secondAttribute="leading" id="SEN-Wd-WTt"/>
+                                    <constraint firstItem="YhC-os-8lb" firstAttribute="leading" secondItem="Ys3-iy-yIZ" secondAttribute="leading" id="d7E-3K-BRy"/>
+                                    <constraint firstAttribute="bottom" secondItem="nxH-WV-Q67" secondAttribute="bottom" constant="16" id="o9t-LQ-31L"/>
+                                    <constraint firstItem="Qx4-N8-pKQ" firstAttribute="top" secondItem="Ys3-iy-yIZ" secondAttribute="top" constant="16" id="pW5-h4-LMc"/>
+                                    <constraint firstAttribute="bottom" secondItem="YhC-os-8lb" secondAttribute="bottom" id="yYc-e5-hq5"/>
+                                    <constraint firstItem="nxH-WV-Q67" firstAttribute="centerX" secondItem="Ys3-iy-yIZ" secondAttribute="centerX" id="zlY-bh-k2v"/>
+                                </constraints>
+                            </view>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
-                            <constraint firstItem="VuH-SM-CeI" firstAttribute="top" secondItem="cZG-n2-XL0" secondAttribute="top" id="BJ7-Yb-71a"/>
+                            <constraint firstItem="VuH-SM-CeI" firstAttribute="top" secondItem="Ys3-iy-yIZ" secondAttribute="bottom" id="7om-id-1tu"/>
                             <constraint firstItem="VuH-SM-CeI" firstAttribute="leading" secondItem="cZG-n2-XL0" secondAttribute="leading" id="CcA-Fd-c7j"/>
+                            <constraint firstItem="Ys3-iy-yIZ" firstAttribute="trailing" secondItem="cZG-n2-XL0" secondAttribute="trailing" id="EcV-CR-jNQ"/>
+                            <constraint firstItem="Ys3-iy-yIZ" firstAttribute="leading" secondItem="cZG-n2-XL0" secondAttribute="leading" id="JNf-9h-spn"/>
                             <constraint firstItem="cZG-n2-XL0" firstAttribute="trailing" secondItem="VuH-SM-CeI" secondAttribute="trailing" id="XnF-Lt-feF"/>
                             <constraint firstItem="cZG-n2-XL0" firstAttribute="bottom" secondItem="VuH-SM-CeI" secondAttribute="bottom" id="YIf-YJ-2mh"/>
+                            <constraint firstItem="Ys3-iy-yIZ" firstAttribute="top" secondItem="cZG-n2-XL0" secondAttribute="top" id="f0d-Xp-dA3"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="cZG-n2-XL0"/>
                     </view>
                     <connections>
+                        <outlet property="customHeaderHeightConstraint" destination="NSn-bU-XpU" id="7J0-4N-wZe"/>
+                        <outlet property="customHeaderView" destination="Ys3-iy-yIZ" id="3Qh-EK-wvP"/>
                         <outlet property="tableView" destination="VuH-SM-CeI" id="Lg9-VH-sF1"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="WNP-o9-LML" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3518" y="1756"/>
+            <point key="canvasLocation" x="4925.6000000000004" y="1755.4722638680662"/>
         </scene>
     </scenes>
     <resources>
+        <image name="0" width="64" height="64"/>
         <image name="cat" width="265" height="190"/>
+        <image name="dog" width="300" height="168"/>
     </resources>
 </document>
