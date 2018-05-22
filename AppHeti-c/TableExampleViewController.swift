@@ -10,7 +10,7 @@ import UIKit
 
 class TableExampleViewController: UIViewController {
     
-    let elements = ["cat", "lézard", "dog"]
+    let elements = ["cat", "lézard", "dog", "cat", "lézard", "dog", "cat", "lézard", "dog", "cat", "lézard", "dog", "cat", "lézard", "dog"]
     
     @IBOutlet weak var customHeaderHeightConstraint: NSLayoutConstraint!
     
@@ -118,11 +118,15 @@ extension TableExampleViewController: UITableViewDataSource {
 }
 
 extension TableExampleViewController:UIScrollViewDelegate {
-
-    
     func scrollViewDidScroll(_ scrollView: UIScrollView) {
         if (scrollView.contentOffset.y < 0) {
             self.customHeaderHeightConstraint.constant += abs(scrollView.contentOffset.y)
+        } else if (scrollView.contentOffset.y > 0 && self.customHeaderHeightConstraint.constant >= 65) {
+            self.customHeaderHeightConstraint.constant -= scrollView.contentOffset.y / 100
+        }
+        
+        if self.customHeaderHeightConstraint.constant < 65 {
+            self.customHeaderHeightConstraint.constant = 65
         }
     }
     
