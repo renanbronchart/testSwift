@@ -29,6 +29,13 @@ class TableExampleViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
+    func animateHeader () {
+        customHeaderHeightConstraint.constant = 150
+        UIView.animate(withDuration: 0.4, delay: 0.0, usingSpringWithDamping: 0.7, initialSpringVelocity: 0.5, options: .curveEaseInOut, animations: {
+            self.view.layoutIfNeeded()
+        }, completion: nil)
+    }
+    
 
     /*
     // MARK: - Navigation
@@ -111,15 +118,23 @@ extension TableExampleViewController: UITableViewDataSource {
 }
 
 extension TableExampleViewController:UIScrollViewDelegate {
+
+    
     func scrollViewDidScroll(_ scrollView: UIScrollView) {
-        print(scrollView.contentOffset.y)
+        if (scrollView.contentOffset.y < 0) {
+            self.customHeaderHeightConstraint.constant += abs(scrollView.contentOffset.y)
+        }
     }
     
     func scrollViewDidEndDragging(_ scrollView: UIScrollView, willDecelerate decelerate: Bool) {
-        
+        if self.customHeaderHeightConstraint.constant > 150 {
+            animateHeader()
+        }
     }
     
     func scrollViewDidEndDecelerating(_ scrollView: UIScrollView) {
-        
+        if self.customHeaderHeightConstraint.constant > 150 {
+            animateHeader()
+        }
     }
 }
