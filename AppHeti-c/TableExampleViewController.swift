@@ -14,8 +14,10 @@ class TableExampleViewController: UIViewController {
     
     @IBOutlet weak var customHeaderHeightConstraint: NSLayoutConstraint!
     
-    @IBOutlet weak var customHeaderView: UIView!
+    @IBOutlet weak var customHeaderView: CustomHeaderView!
     @IBOutlet weak var tableView: UITableView!
+    @IBOutlet weak var colorView: UIView!
+    @IBOutlet weak var headerImageView: UIImageView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -121,8 +123,16 @@ extension TableExampleViewController:UIScrollViewDelegate {
     func scrollViewDidScroll(_ scrollView: UIScrollView) {
         if (scrollView.contentOffset.y < 0) {
             self.customHeaderHeightConstraint.constant += abs(scrollView.contentOffset.y)
+            
+            customHeaderView.incrementColorAlpha(colorView: self.colorView, offset: customHeaderHeightConstraint.constant)
+            
+            customHeaderView.incrementArticleAlpha(imageView: self.headerImageView, offset: customHeaderHeightConstraint.constant)
+            
         } else if (scrollView.contentOffset.y > 0 && self.customHeaderHeightConstraint.constant >= 65) {
             self.customHeaderHeightConstraint.constant -= scrollView.contentOffset.y / 100
+            customHeaderView.decrementColorAlpha(colorView: self.colorView, offset: customHeaderHeightConstraint.constant)
+            
+            customHeaderView.decrementArticleAlpha(imageView: self.headerImageView, offset: customHeaderHeightConstraint.constant)
         }
         
         if self.customHeaderHeightConstraint.constant < 65 {

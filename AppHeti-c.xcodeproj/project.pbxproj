@@ -22,6 +22,7 @@
 		25B00CB120AE402400058742 /* NextViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25B00CB020AE402400058742 /* NextViewController.swift */; };
 		25B05A4C20B4B83C0091BA1B /* AnimationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25B05A4B20B4B83C0091BA1B /* AnimationViewController.swift */; };
 		25B05A4F20B4BA500091BA1B /* StickyHeaderLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25B05A4E20B4BA500091BA1B /* StickyHeaderLayout.swift */; };
+		25B05A5320B4D2440091BA1B /* CustomHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25B05A5220B4D2440091BA1B /* CustomHeaderView.swift */; };
 		25CFB47620B06DE7009D96CB /* OnBoardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25CFB47520B06DE7009D96CB /* OnBoardViewController.swift */; };
 		41A2857EBC280127AB9075EF /* Pods_AppHeti_cTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9CBECA80E5868E29E64DEC1 /* Pods_AppHeti_cTests.framework */; };
 		6AE39D53D4E45465732C3B97 /* Pods_AppHeti_c.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EBE737F5B2F6E3008C20E0E7 /* Pods_AppHeti_c.framework */; };
@@ -67,6 +68,7 @@
 		25B00CB020AE402400058742 /* NextViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NextViewController.swift; sourceTree = "<group>"; };
 		25B05A4B20B4B83C0091BA1B /* AnimationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationViewController.swift; sourceTree = "<group>"; };
 		25B05A4E20B4BA500091BA1B /* StickyHeaderLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StickyHeaderLayout.swift; sourceTree = "<group>"; };
+		25B05A5220B4D2440091BA1B /* CustomHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomHeaderView.swift; sourceTree = "<group>"; };
 		25CFB47520B06DE7009D96CB /* OnBoardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoardViewController.swift; sourceTree = "<group>"; };
 		35D1871DFCA4FBE24B116F1A /* Pods-AppHeti-c.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AppHeti-c.release.xcconfig"; path = "Pods/Target Support Files/Pods-AppHeti-c/Pods-AppHeti-c.release.xcconfig"; sourceTree = "<group>"; };
 		677BA79CE6585485CD217AE9 /* Pods-AppHeti-cUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AppHeti-cUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-AppHeti-cUITests/Pods-AppHeti-cUITests.release.xcconfig"; sourceTree = "<group>"; };
@@ -147,6 +149,7 @@
 				25CFB47520B06DE7009D96CB /* OnBoardViewController.swift */,
 				2518391D20B1E10F006B6789 /* TableExampleViewController.swift */,
 				2518391F20B1E2F8006B6789 /* CustomTableViewCell.swift */,
+				25B05A5220B4D2440091BA1B /* CustomHeaderView.swift */,
 			);
 			path = "AppHeti-c";
 			sourceTree = "<group>";
@@ -414,6 +417,7 @@
 				254CBB4620AE2F4300047F1B /* MoviesTableViewController.swift in Sources */,
 				25B00CB120AE402400058742 /* NextViewController.swift in Sources */,
 				259C87B120AD72320036C2AD /* ViewController.swift in Sources */,
+				25B05A5320B4D2440091BA1B /* CustomHeaderView.swift in Sources */,
 				25B05A4F20B4BA500091BA1B /* StickyHeaderLayout.swift in Sources */,
 				254CBB4820AE33A600047F1B /* MoviesTableViewCell.swift in Sources */,
 				2518391E20B1E10F006B6789 /* TableExampleViewController.swift in Sources */,

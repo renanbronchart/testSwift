@@ -288,13 +288,13 @@
                                     </tableViewCell>
                                 </prototypes>
                             </tableView>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Ys3-iy-yIZ">
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Ys3-iy-yIZ" customClass="CustomHeaderView" customModule="AppHeti_c" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="20" width="375" height="150"/>
                                 <subviews>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.65000000000000002" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="dog" translatesAutoresizingMaskIntoConstraints="NO" id="YhC-os-8lb">
                                         <rect key="frame" x="0.0" y="0.0" width="375" height="150"/>
                                     </imageView>
-                                    <view alpha="0.40000000000000002" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="qQZ-f2-HfQ">
+                                    <view alpha="0.45000000000000001" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="qQZ-f2-HfQ">
                                         <rect key="frame" x="0.0" y="0.0" width="375" height="150"/>
                                         <color key="backgroundColor" red="1" green="0.039765733839999998" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                     </view>
@@ -344,8 +344,10 @@
                         <viewLayoutGuide key="safeArea" id="cZG-n2-XL0"/>
                     </view>
                     <connections>
+                        <outlet property="colorView" destination="qQZ-f2-HfQ" id="7a6-iN-M4b"/>
                         <outlet property="customHeaderHeightConstraint" destination="NSn-bU-XpU" id="7J0-4N-wZe"/>
-                        <outlet property="customHeaderView" destination="Ys3-iy-yIZ" id="3Qh-EK-wvP"/>
+                        <outlet property="customHeaderView" destination="Ys3-iy-yIZ" id="rrU-wg-jLl"/>
+                        <outlet property="headerImageView" destination="nxH-WV-Q67" id="lBM-8s-8Gk"/>
                         <outlet property="tableView" destination="VuH-SM-CeI" id="Lg9-VH-sF1"/>
                     </connections>
                 </viewController>
