@@ -63,8 +63,9 @@ extension TableExampleViewController: UITableViewDelegate {
 
     public func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "customTableViewCellIdentifier") as! CustomTableViewCell
-
         
+//        cell.cellView.layer.cornerRadius = cell.cellView.frame.height / 2
+        cell.animalImage.layer.cornerRadius = cell.animalImage.frame.height / 2
         cell.animalLabel.text = elements[indexPath.row]
         cell.animalImage.image = UIImage(named: elements[indexPath.row])
         cell.animalImage.layer.cornerRadius = cell.animalImage.frame.height / 2

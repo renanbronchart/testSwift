@@ -14,7 +14,7 @@ class ConnexionViewController: UIViewController {
     
     @IBAction func loggIn(_ sender: Any) {
         var connexionStoryBoard: UIStoryboard!
-        connexionStoryBoard = UIStoryboard(name: "Connexion", bundle: nil)
+        connexionStoryBoard = UIStoryboard(name: "Challenges", bundle: nil)
         
         if let connexionViewController =
             connexionStoryBoard.instantiateViewController(withIdentifier: "ChallengesListViewControllerIdentifier") as? ChallengesListViewController {

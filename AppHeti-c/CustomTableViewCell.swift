@@ -13,10 +13,15 @@ class CustomTableViewCell: UITableViewCell {
     @IBOutlet weak var cellView: UIView!
     @IBOutlet weak var animalImage: UIImageView!
     @IBOutlet weak var animalLabel: UILabel!
+    @IBOutlet weak var backgroundImageCell: UIImageView!
     
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
+        
+        backgroundImageCell.image = #imageLiteral(resourceName: "dog")
+        backgroundImageCell.alpha = 0.5
+        backgroundImageCell.layer.cornerRadius = backgroundImageCell.frame.height / 2
     }
 
     override func setSelected(_ selected: Bool, animated: Bool) {

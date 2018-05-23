@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		2518391E20B1E10F006B6789 /* TableExampleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2518391D20B1E10F006B6789 /* TableExampleViewController.swift */; };
 		2518392020B1E2F8006B6789 /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2518391F20B1E2F8006B6789 /* CustomTableViewCell.swift */; };
-		2537FC9720B6065900D687A2 /* Connexion.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2537FC9620B6065900D687A2 /* Connexion.storyboard */; };
+		2537FC9720B6065900D687A2 /* Challenges.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2537FC9620B6065900D687A2 /* Challenges.storyboard */; };
 		2537FC9920B6071E00D687A2 /* ConnexionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2537FC9820B6071E00D687A2 /* ConnexionViewController.swift */; };
 		2537FC9B20B608D900D687A2 /* ChallengesListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2537FC9A20B608D900D687A2 /* ChallengesListViewController.swift */; };
 		254CBB4620AE2F4300047F1B /* MoviesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 254CBB4520AE2F4300047F1B /* MoviesTableViewController.swift */; };
@@ -52,7 +52,7 @@
 /* Begin PBXFileReference section */
 		2518391D20B1E10F006B6789 /* TableExampleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableExampleViewController.swift; sourceTree = "<group>"; };
 		2518391F20B1E2F8006B6789 /* CustomTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
-		2537FC9620B6065900D687A2 /* Connexion.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Connexion.storyboard; sourceTree = "<group>"; };
+		2537FC9620B6065900D687A2 /* Challenges.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Challenges.storyboard; sourceTree = "<group>"; };
 		2537FC9820B6071E00D687A2 /* ConnexionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConnexionViewController.swift; sourceTree = "<group>"; };
 		2537FC9A20B608D900D687A2 /* ChallengesListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChallengesListViewController.swift; sourceTree = "<group>"; };
 		254CBB4520AE2F4300047F1B /* MoviesTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesTableViewController.swift; sourceTree = "<group>"; };
@@ -156,7 +156,7 @@
 				2518391D20B1E10F006B6789 /* TableExampleViewController.swift */,
 				2518391F20B1E2F8006B6789 /* CustomTableViewCell.swift */,
 				25B05A5220B4D2440091BA1B /* CustomHeaderView.swift */,
-				2537FC9620B6065900D687A2 /* Connexion.storyboard */,
+				2537FC9620B6065900D687A2 /* Challenges.storyboard */,
 				2537FC9820B6071E00D687A2 /* ConnexionViewController.swift */,
 				2537FC9A20B608D900D687A2 /* ChallengesListViewController.swift */,
 			);
@@ -320,7 +320,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2537FC9720B6065900D687A2 /* Connexion.storyboard in Resources */,
+				2537FC9720B6065900D687A2 /* Challenges.storyboard in Resources */,
 				259C87B920AD72330036C2AD /* LaunchScreen.storyboard in Resources */,
 				259C87B620AD72330036C2AD /* Assets.xcassets in Resources */,
 				259C87B420AD72320036C2AD /* Main.storyboard in Resources */,
