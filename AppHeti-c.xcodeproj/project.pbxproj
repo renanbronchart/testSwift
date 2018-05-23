@@ -9,6 +9,9 @@
 /* Begin PBXBuildFile section */
 		2518391E20B1E10F006B6789 /* TableExampleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2518391D20B1E10F006B6789 /* TableExampleViewController.swift */; };
 		2518392020B1E2F8006B6789 /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2518391F20B1E2F8006B6789 /* CustomTableViewCell.swift */; };
+		2537FC9720B6065900D687A2 /* Connexion.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2537FC9620B6065900D687A2 /* Connexion.storyboard */; };
+		2537FC9920B6071E00D687A2 /* ConnexionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2537FC9820B6071E00D687A2 /* ConnexionViewController.swift */; };
+		2537FC9B20B608D900D687A2 /* ChallengesListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2537FC9A20B608D900D687A2 /* ChallengesListViewController.swift */; };
 		254CBB4620AE2F4300047F1B /* MoviesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 254CBB4520AE2F4300047F1B /* MoviesTableViewController.swift */; };
 		254CBB4820AE33A600047F1B /* MoviesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 254CBB4720AE33A600047F1B /* MoviesTableViewCell.swift */; };
 		259C87AF20AD72320036C2AD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 259C87AE20AD72320036C2AD /* AppDelegate.swift */; };
@@ -49,6 +52,9 @@
 /* Begin PBXFileReference section */
 		2518391D20B1E10F006B6789 /* TableExampleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableExampleViewController.swift; sourceTree = "<group>"; };
 		2518391F20B1E2F8006B6789 /* CustomTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
+		2537FC9620B6065900D687A2 /* Connexion.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Connexion.storyboard; sourceTree = "<group>"; };
+		2537FC9820B6071E00D687A2 /* ConnexionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConnexionViewController.swift; sourceTree = "<group>"; };
+		2537FC9A20B608D900D687A2 /* ChallengesListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChallengesListViewController.swift; sourceTree = "<group>"; };
 		254CBB4520AE2F4300047F1B /* MoviesTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesTableViewController.swift; sourceTree = "<group>"; };
 		254CBB4720AE33A600047F1B /* MoviesTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesTableViewCell.swift; sourceTree = "<group>"; };
 		259C87AB20AD72320036C2AD /* AppHeti-c.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AppHeti-c.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -150,6 +156,9 @@
 				2518391D20B1E10F006B6789 /* TableExampleViewController.swift */,
 				2518391F20B1E2F8006B6789 /* CustomTableViewCell.swift */,
 				25B05A5220B4D2440091BA1B /* CustomHeaderView.swift */,
+				2537FC9620B6065900D687A2 /* Connexion.storyboard */,
+				2537FC9820B6071E00D687A2 /* ConnexionViewController.swift */,
+				2537FC9A20B608D900D687A2 /* ChallengesListViewController.swift */,
 			);
 			path = "AppHeti-c";
 			sourceTree = "<group>";
@@ -311,6 +320,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2537FC9720B6065900D687A2 /* Connexion.storyboard in Resources */,
 				259C87B920AD72330036C2AD /* LaunchScreen.storyboard in Resources */,
 				259C87B620AD72330036C2AD /* Assets.xcassets in Resources */,
 				259C87B420AD72320036C2AD /* Main.storyboard in Resources */,
@@ -419,9 +429,11 @@
 				259C87B120AD72320036C2AD /* ViewController.swift in Sources */,
 				25B05A5320B4D2440091BA1B /* CustomHeaderView.swift in Sources */,
 				25B05A4F20B4BA500091BA1B /* StickyHeaderLayout.swift in Sources */,
+				2537FC9920B6071E00D687A2 /* ConnexionViewController.swift in Sources */,
 				254CBB4820AE33A600047F1B /* MoviesTableViewCell.swift in Sources */,
 				2518391E20B1E10F006B6789 /* TableExampleViewController.swift in Sources */,
 				259C87AF20AD72320036C2AD /* AppDelegate.swift in Sources */,
+				2537FC9B20B608D900D687A2 /* ChallengesListViewController.swift in Sources */,
 				25B05A4C20B4B83C0091BA1B /* AnimationViewController.swift in Sources */,
 				259C881720AD8E2A0036C2AD /* HomeViewController.swift in Sources */,
 				25CFB47620B06DE7009D96CB /* OnBoardViewController.swift in Sources */,
