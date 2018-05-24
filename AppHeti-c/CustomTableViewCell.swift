@@ -14,6 +14,17 @@ class CustomTableViewCell: UITableViewCell {
     @IBOutlet weak var animalImage: UIImageView!
     @IBOutlet weak var animalLabel: UILabel!
     @IBOutlet weak var backgroundImageCell: UIImageView!
+    @IBOutlet weak var buttonLabel: AppButton!
+    
+    @IBAction func buttonMission(_ sender: Any) {
+        if let buttonText = buttonLabel.titleLabel!.text {
+            let number = Int(buttonText) ?? 0
+            
+            buttonLabel.setTitle(String(number + 1), for: .normal) 
+            animalLabel.text = String(number + 1)
+        }
+        
+    }
     
     override func awakeFromNib() {
         super.awakeFromNib()
@@ -21,7 +32,7 @@ class CustomTableViewCell: UITableViewCell {
         
         backgroundImageCell.image = #imageLiteral(resourceName: "dog")
         backgroundImageCell.alpha = 0.5
-        backgroundImageCell.layer.cornerRadius = backgroundImageCell.frame.height / 2
+        backgroundImageCell.layer.cornerRadius = backgroundImageCell.frame.height / 4
     }
 
     override func setSelected(_ selected: Bool, animated: Bool) {
