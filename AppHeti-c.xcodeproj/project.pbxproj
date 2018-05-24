@@ -10,6 +10,7 @@
 		2518391E20B1E10F006B6789 /* TableExampleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2518391D20B1E10F006B6789 /* TableExampleViewController.swift */; };
 		2518392020B1E2F8006B6789 /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2518391F20B1E2F8006B6789 /* CustomTableViewCell.swift */; };
 		2521286120B752A3007FAB53 /* AppButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2521286020B752A3007FAB53 /* AppButton.swift */; };
+		2521286320B77243007FAB53 /* AppProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2521286220B77243007FAB53 /* AppProgressView.swift */; };
 		2537FC9720B6065900D687A2 /* Challenges.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2537FC9620B6065900D687A2 /* Challenges.storyboard */; };
 		2537FC9920B6071E00D687A2 /* ConnexionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2537FC9820B6071E00D687A2 /* ConnexionViewController.swift */; };
 		2537FC9B20B608D900D687A2 /* ChallengesListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2537FC9A20B608D900D687A2 /* ChallengesListViewController.swift */; };
@@ -54,6 +55,7 @@
 		2518391D20B1E10F006B6789 /* TableExampleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableExampleViewController.swift; sourceTree = "<group>"; };
 		2518391F20B1E2F8006B6789 /* CustomTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
 		2521286020B752A3007FAB53 /* AppButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppButton.swift; sourceTree = "<group>"; };
+		2521286220B77243007FAB53 /* AppProgressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppProgressView.swift; sourceTree = "<group>"; };
 		2537FC9620B6065900D687A2 /* Challenges.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Challenges.storyboard; sourceTree = "<group>"; };
 		2537FC9820B6071E00D687A2 /* ConnexionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConnexionViewController.swift; sourceTree = "<group>"; };
 		2537FC9A20B608D900D687A2 /* ChallengesListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChallengesListViewController.swift; sourceTree = "<group>"; };
@@ -188,6 +190,7 @@
 			children = (
 				25B05A4E20B4BA500091BA1B /* StickyHeaderLayout.swift */,
 				2521286020B752A3007FAB53 /* AppButton.swift */,
+				2521286220B77243007FAB53 /* AppProgressView.swift */,
 			);
 			path = layouts;
 			sourceTree = "<group>";
@@ -427,6 +430,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2518392020B1E2F8006B6789 /* CustomTableViewCell.swift in Sources */,
+				2521286320B77243007FAB53 /* AppProgressView.swift in Sources */,
 				254CBB4620AE2F4300047F1B /* MoviesTableViewController.swift in Sources */,
 				25B00CB120AE402400058742 /* NextViewController.swift in Sources */,
 				259C87B120AD72320036C2AD /* ViewController.swift in Sources */,

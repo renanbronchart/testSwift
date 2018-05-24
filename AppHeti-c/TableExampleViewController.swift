@@ -12,6 +12,12 @@ class TableExampleViewController: UIViewController {
     
     let elements = ["cat", "lézard", "dog", "cat", "lézard", "dog", "cat", "lézard", "dog", "cat", "lézard", "dog", "cat", "lézard", "dog"]
     
+    var minValue = 0
+    var maxValue = 100
+    var xpMore = 10
+    var more: Int = 0
+    var downloader = Timer()
+    
     @IBOutlet weak var customHeaderHeightConstraint: NSLayoutConstraint!
     
     @IBOutlet weak var customHeaderView: CustomHeaderView!
@@ -19,11 +25,41 @@ class TableExampleViewController: UIViewController {
     @IBOutlet weak var colorView: UIView!
     @IBOutlet weak var headerImageView: UIImageView!
     
+    @IBOutlet weak var purcentNumber: UILabel!
+    @IBOutlet weak var downloadBar: UIProgressView!
+    
+    @IBOutlet weak var startButton: UIButton!
+    
+    @IBAction func startDownload(_ sender: Any) {
+        startButton.isEnabled = false
+        more = minValue + xpMore
+        downloader = Timer.scheduledTimer(timeInterval: 0.06, target: self, selector: (#selector(self.updater)), userInfo: nil, repeats: true)
+    }
+    
+    @objc func updater () {
+        if minValue != maxValue {
+            if minValue != more {
+                minValue += 1
+                purcentNumber.text = "\(minValue)"
+                downloadBar.progress = Float(minValue) / Float(maxValue)
+            } else {
+                downloader.invalidate()
+                startButton.isEnabled = true
+            }
+        } else {
+            minValue = 0
+            more = minValue
+            print("Niveau suivant")
+        }
+    }
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
         tableView.delegate = self
         tableView.dataSource = self
+        downloadBar.setProgress(0, animated: false)
     }
     
     override func didReceiveMemoryWarning() {
